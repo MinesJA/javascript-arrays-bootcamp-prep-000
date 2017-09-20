@@ -40,3 +40,8 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   array.shift()
   return array
 }
+
+function removeElementFromBeginningOfArray(array) {
+  array.splice(1)
+  return array
+}
